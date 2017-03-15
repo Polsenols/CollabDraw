@@ -17,7 +17,7 @@ function setup() {
 	//canvas.class("Sketch");
 	canvas.parent('potato');
 	background(51);
-	socket = io.connect('http://localhost:3000');
+	socket = io.connect('https://dry-atoll-24896.herokuapp.com');
 	socket.on('mouse', newDrawing);
 }
 
