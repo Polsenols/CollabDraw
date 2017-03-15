@@ -1,0 +1,40 @@
+/*html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	display: flex;
+
+	justify-content: center;
+
+	align-items: center;
+}*/
+
+.outer-container {
+
+}
+
+.top-section {
+  height: 10%;
+}
+
+.bottom-section {
+  height: 80%;
+  margin: 8px;
+}
+
+.bottom-aligner {
+  display: inline-block;
+  height: 100%;
+  vertical-align: bottom;
+}
+
+.bottom-content {
+  border: 2px solid black;
+  display: inline-block;
+}
+
+.top-content {
+}
+
